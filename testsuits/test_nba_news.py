@@ -20,12 +20,12 @@ class ViewNBANews(unittest.TestCase):
         baiduhome = HomePage(self.driver)
         baiduhome.click_news()
         # 初始化一个百度新闻主页对象，点击体育
-        newshome = NewsHomePage(self.driver)
-        newshome.click_sports()
+        # newshome = NewsHomePage(self.driver)
+        # newshome.click_sports()
         # 初始化一个体育新闻主页，点击NBA
-        sportnewhome = SportNewsHomePage(self.driver)
-        sportnewhome.click_nba_link()
-        sportnewhome.get_windows_img()
+        # sportnewhome = SportNewsHomePage(self.driver)
+        # sportnewhome.click_nba_link()
+        # sportnewhome.get_windows_img()
 
 
 if __name__ == '__main__':
