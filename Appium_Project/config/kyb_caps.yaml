@@ -1,0 +1,19 @@
+platformName: Android
+#模拟器
+platformVersion: 6.0
+deviceName: 127.0.0.1:65555
+
+#模拟器
+#platformVersion: 4.4.2
+#deviceName: 127.0.0.1:62001
+
+appname: kaoyanbang.apk
+appPackage : com.asiainfo.wcs
+appActivity : .ui.splash.SplashActivity
+
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+
+ip: 127.0.0.1
+port: 4723
