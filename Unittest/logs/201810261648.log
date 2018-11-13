@@ -1,7 +1,0 @@
-2018-10-26 16:48:43,111 - BrowserEngine - INFO - You had select Chrome browser.
-2018-10-26 16:48:43,142 - BrowserEngine - INFO - The test server url is: https://www.baidu.com
-2018-10-26 16:49:19,792 - BrowserEngine - INFO - Starting Chrome browser.
-2018-10-26 16:49:36,395 - BrowserEngine - INFO - Open url: https://www.baidu.com
-2018-10-26 16:49:38,039 - BrowserEngine - INFO - Maximize the current window.
-2018-10-26 16:49:38,040 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
-2018-10-26 16:49:38,785 - BasePage - INFO - Had find the element ' 新闻 ' successful by xpath via value: //*[@id='u1']/a[@name='tj_trnews'] 

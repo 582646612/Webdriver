@@ -1,3 +1,4 @@
+#coding:utf-8
 from baseView.baseView import BaseView
 from common.desired_caps import appium_desired
 from selenium.common.exceptions import NoSuchElementException

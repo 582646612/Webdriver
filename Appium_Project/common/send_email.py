@@ -1,3 +1,4 @@
+#coding:utf-8
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
@@ -10,31 +11,30 @@ def latest_report(report_dir):
     lists.sort(key=lambda fn:os.path.getatime(report_dir+'//'+fn))
     logging.info('the latest report is :' +lists[-1])
     file=os.path.join(report_dir,lists[-1])
-
     return file
+
 
 #发送邮件
 def sendEmail(latest_report):
-    f=open(latest_report, 'rb')
-    mail_content=f.read()
+    with open(latest_report, 'r') as f:
+       mail_content=f.read()
 
-    username = '348395870@qq.com'
-    password = 'yksdwspckerkcacf'
-    smtpServer = 'smtp.qq.com'
-
-    sender = '348395870@qq.com'
-    receiver = ['helloreverie@sina.com']
-    subject='Test Report by Jazlnwang'
+    sender = 'cs825096095@163.com'
+    receiver = "825096095@qq.com"
+    subject = 'python email test'
+    smtpServer = 'smtp.163.com'
+    username = 'cs825096095@163.com'
+    password = 'cs123456'
 
     message=MIMEText(mail_content,_subtype='html', _charset='utf-8')
-    message['Subject'] = Header(subject,'utf-8')
     message['From'] = sender
-    message['To'] = ','.join(receiver)
+    message['To'] = receiver
+    subject = '测试标题'
+    message['Subject'] = Header(subject, 'utf-8')
 
     try:
-        smtp = smtplib.SMTP_SSL(smtpServer, 465)
-        smtp.helo(smtpServer)
-        smtp.ehlo(smtpServer)
+        smtp = smtplib.SMTP()
+        smtp.connect(smtpServer, 25)
         smtp.login(username, password)
         smtp.sendmail(sender, receiver, message.as_string())
     except:
@@ -42,3 +42,7 @@ def sendEmail(latest_report):
     else:
         print('邮件发送成功')
         smtp.quit()
+if __name__ == '__main__':
+    base_dir = os.path.dirname(os.path.dirname(__file__))
+    report_dir = base_dir + "/reports"
+    sendEmail(latest_report(report_dir))

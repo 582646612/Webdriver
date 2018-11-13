@@ -1,3 +1,4 @@
+#coding:utf-8
 from common.desired_caps import appium_desired
 from common.common_fun import Common
 from selenium.webdriver.common.by import By
@@ -22,7 +23,8 @@ class RegisterView(Common):
     registerNow = (By.ID, 'com.tal.kaoyan:id/activity_register_register_btn')
 
     #目标院校
-    select_school = (By.ID, 'com.tal.kaoyan:id/perfectinfomation_edit_school_name')
+    select_school = (By.ID, 'com.tal.kaoyan:id/activity_perfectinfomation_school')
+    select_schools=(By.NAME,"添加院校")
     cities = (By.ID, 'com.tal.kaoyan:id/more_forum_title')
     university = (By.ID, 'com.tal.kaoyan:id/university_search_item_name')
 
@@ -49,9 +51,9 @@ class RegisterView(Common):
         self.driver.find_element(*self.registerBtn).click()
         #设置头像
         logging.info('set portait')
-        self.driver.find_element(*self.add_portait).click()
-        self.driver.find_elements(*self.image_choice)[2].click()
-        self.driver.find_element(*self.saveBtn).click()
+        # self.driver.find_element(*self.add_portait).click()
+        # self.driver.find_elements(*self.image_choice)[2].click()
+        # self.driver.find_element(*self.saveBtn).click()
 
 
         #设置用户名
@@ -91,14 +93,15 @@ class RegisterView(Common):
 
         logging.info('choose university')
         self.driver.find_element(*self.select_school).click()
-        sleep(2)
+
+        sleep(7)
         self.swipeUp()
 
         self.driver.find_elements(*self.cities)[9].click()
 
         self.swipeUp()
         self.driver.find_elements(*self.university)[0].click()
-
+        sleep(7)
         logging.info('choose major')
         self.driver.find_element(*self.choose_major).click()
         self.driver.find_element(*self.pro_master).click()
@@ -135,7 +138,7 @@ if __name__ == '__main__':
 
     register.register_action(newname, newpass, newemail)
 
-
+# adb uninstall io.appium.android.ime
 
 
 

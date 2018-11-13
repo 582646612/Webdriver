@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab1624ab-b3af-4ff0-a5c9-bc602d3b076a" name="Default Changelist" comment="">
+      <change afterPath="D:/python/Common/Mysql/Pymysql.py" afterDir="false" />
+      <change afterPath="D:/python/Common/Mysql/sql.py" afterDir="false" />
+      <change afterPath="D:/python/Common/Py_Study/Iter.py" afterDir="false" />
+      <change afterPath="D:/python/Common/Py_Study/Yield.py" afterDir="false" />
+      <change afterPath="D:/python/Common/Request/GET.py" afterDir="false" />
+      <change afterPath="D:/python/Common/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Unittest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/.idea/kyb_testProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/app/kaoyanbang.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/app/kaoyanbang.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/businessView/loginView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/businessView/loginView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/businessView/registerView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/businessView/registerView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/common/common_fun.py" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/common/common_fun.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/common/desired_caps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/common/desired_caps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/common/send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/common/send_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/config/kyb_caps.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/config/kyb_caps.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/config/log.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/config/log.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/logs/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/logs/runlog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/reports/2018-09-03 16_53_30 test_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/reports/2018-09-03 17_35_19 test_report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/screenshots/loginFail_2018-09-03 14_37_30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/screenshots/loginFail_2018-09-03 14_38_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/screenshots/loginFail_2018-09-03 15_08_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Appium_Project/test_run/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Appium_Project/test_run/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/.idea/Unittest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/config/Config_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/config/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/framework/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/framework/base_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/framework/browser_engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/framework/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/logs/201810261648.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/pageobjects/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/pageobjects/baidu_homepage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/pageobjects/baidu_news_home.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/pageobjects/baidu_sport_home.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/test_report/2018-09-17-14_07_29HTMLtemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/test_report/2018-09-17-14_11_23HTMLtemplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/testsuits/TestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/testsuits/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/testsuits/baidu_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/testsuits/test_get_pagetitle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unittest/testsuits/test_nba_news.py" beforeDir="false" />
+      <change beforePath="D:/python/.idea/encodings.xml" beforeDir="false" afterPath="D:/python/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="D:/python/.idea/misc.xml" beforeDir="false" afterPath="D:/python/.idea/misc.xml" afterDir="false" />
+      <change beforePath="D:/python/.idea/python.iml" beforeDir="false" afterPath="D:/python/.idea/python.iml" afterDir="false" />
+      <change beforePath="D:/python/.idea/workspace.xml" beforeDir="false" afterPath="D:/python/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/python/Common/Function/Email.py" beforeDir="false" afterPath="D:/python/Common/Function/Email.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Memery/Character string.py" beforeDir="false" afterPath="D:/python/Common/Memery/String.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Memery/List.py" beforeDir="false" afterPath="D:/python/Common/Memery/List.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Memery/List1.py" beforeDir="false" />
+      <change beforePath="D:/python/Common/Memery/Shuzu.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Pinfang.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Memery/Tuple.py" beforeDir="false" afterPath="D:/python/Common/Memery/Tuple.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Mysql/Connect.py" beforeDir="false" />
+      <change beforePath="D:/python/Common/Mysql/Mysql.py" beforeDir="false" />
+      <change beforePath="D:/python/Common/Py_Study/Test.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Yaml.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Py_Study/sum.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/sum.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Request/Post.py" beforeDir="false" afterPath="D:/python/Common/Request/Post.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Service/Coroutine_b.py" beforeDir="false" afterPath="D:/python/Common/Service/Coroutine_b.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Service/Flask.py" beforeDir="false" afterPath="D:/python/Common/Service/Flask.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Service/app.py" beforeDir="false" afterPath="D:/python/Common/Service/App_app.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/99.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/99.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/Calc.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Calc.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/Canvas.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Canvas.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/Ifelse.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Ifelse.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/Input.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Input.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/Loop.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/Loop.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/Sum.py" beforeDir="false" />
+      <change beforePath="D:/python/Common/Test/__init__.py" beforeDir="false" afterPath="D:/python/Common/Memery/Filter.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Test/input_verify.py" beforeDir="false" afterPath="D:/python/Common/Py_Study/input_verify.py" afterDir="false" />
+      <change beforePath="D:/python/Common/Unittest/Test_Math.py" beforeDir="false" afterPath="D:/python/Common/Unittest/Test_Math.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1899785677">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Pipfile" value="3" />
+          <entry key="html" value="16" />
+          <entry key="lock" value="2" />
+          <entry key="py" value="99" />
+          <entry key="pyi" value="3" />
+          <entry key="sql" value="2" />
+          <entry key="yaml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="16" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="99" />
+          <entry key="PythonStub" value="3" />
+          <entry key="SQL" value="2" />
+          <entry key="YAML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="44" />
+          <entry key="py" value="670" />
+          <entry key="yaml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="44" />
+          <entry key="Python" value="670" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>StringIO</find>
+      <find>add_target_info</find>
+      <find>TYPE_CHECKING</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Appium_Project/test_run/run_test.py" />
+        <option value="C:/Python35/Lib/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/Appium_Project/config/kyb_caps.yaml" />
+        <option value="$PROJECT_DIR$/Appium_Project/businessView/registerView.py" />
+        <option value="D:/python/Common/Mysql/Connect.py" />
+        <option value="D:/python/Common/Mysql/Mysql_connect.py" />
+        <option value="D:/python/Common/test.py" />
+        <option value="D:/python/Common/Memery/Tuple.py" />
+        <option value="D:/python/Common/Memery/Filter.py" />
+        <option value="D:/python/Common/Memery/List1.py" />
+        <option value="D:/python/Common/Memery/List.py" />
+        <option value="D:/python/Common/Memery/Shuzu.py" />
+        <option value="D:/python/Common/Py_Study/sum.py" />
+        <option value="D:/python/Common/Test/Sum.py" />
+        <option value="D:/python/Common/Py_Study/Iter.py" />
+        <option value="D:/python/Common/Py_Study/Yield.py" />
+        <option value="D:/python/Common/Py_Study/Input.py" />
+        <option value="D:/python/Common/Service/Coroutine_b.py" />
+        <option value="D:/python/Common/Service/Flask.py" />
+        <option value="D:/python/Common/Service/app.py" />
+        <option value="D:/python/Common/Request/Post.py" />
+        <option value="D:/python/Common/Request/GET.py" />
+        <option value="$PROJECT_DIR$/Blog/models.py" />
+        <option value="$PROJECT_DIR$/Blog/orm_test.py" />
+        <option value="$PROJECT_DIR$/Blog/app.py" />
+        <option value="$PROJECT_DIR$/Blog/user.py" />
+        <option value="$PROJECT_DIR$/Blog/config.py" />
+        <option value="D:/python/Common/Mysql/Mysql.py" />
+        <option value="D:/python/Common/Mysql/sql.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="381" />
+    <option name="y" value="65" />
+    <option name="width" value="1269" />
+    <option name="height" value="660" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\Common\Py_Study" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Mysql">
+    <configuration name="App_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Common/Service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/Common/Service/App_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GET" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Common/Request" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/Common/Request/GET.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Common/Mysql" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/Common/Mysql/Mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Webdriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/www" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/www/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Common/Service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\python\Common\Service\App_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.GET" />
+      <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.App_app" />
+      <item itemvalue="Python.Mysql" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Mysql" />
+        <item itemvalue="Python.App_app" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.GET" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab1624ab-b3af-4ff0-a5c9-bc602d3b076a" name="Default Changelist" comment="" />
+      <created>1541579351679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541579351679</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_login_py - 2018.11.07 at 16h 32m 56s.xml">
+      <configuration name="Unittests in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_py - 2018.11.07 at 16h 36m 42s.xml">
+      <configuration name="Unittests in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_login_py - 2018.11.07 at 17h 07m 56s.xml">
+      <configuration name="Unittests in test_login.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38196722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38196722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/python/Common/Memery/List1.py" />
+    <entry file="file://D:/python/Common/Memery/List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/File.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Max_num.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Pinfang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Yaml.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Test/Sum.py" />
+    <entry file="file://D:/python/Common/Py_Study/sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Calc.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/inherit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/99.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Canvas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Py_Study/Input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Service/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Service/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Service/Flask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Service/Coroutine_b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Service/Coroutine_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Service/Coroutine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/wsgiref/handlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Request/GET.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Request/Post.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/apis.py" />
+    <entry file="file://C:/Python35/Lib/site-packages/aiohttp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/aiohttp/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/yarl/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="384" column="20" selection-start-line="384" selection-start-column="20" selection-end-line="384" selection-end-column="20" />
+          <folding>
+            <element signature="e#20#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/user.py" />
+    <entry file="file://$PROJECT_DIR$/awesome-python3-webapp-master/www/wsgiapp.py" />
+    <entry file="file://$PROJECT_DIR$/awesome-python3-webapp-master/www/urls.py" />
+    <entry file="file://$PROJECT_DIR$/www/app.py" />
+    <entry file="file://C:/Python35/Lib/site-packages/yarl/quoting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/orm.py" />
+    <entry file="file://$PROJECT_DIR$/awesome-python3-webapp-master/fabfile.py" />
+    <entry file="file://$PROJECT_DIR$/Blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#71#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/orm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/orm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+          <folding>
+            <element signature="e#71#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/pymonitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Webdriver/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Service/App_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <marker date="1500954102000" expanded="true" signature="721:723" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Mysql/Pymysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Mysql/Mysql.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Common/Mysql/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Pipfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

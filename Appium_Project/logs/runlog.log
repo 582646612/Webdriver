@@ -1,1 +1,12 @@
-2018-11-05 16:39:26 desired_caps.py[line:30] INFO start launch app...
+2018-11-12 15:02:34 desired_caps.py[line:30] INFO start launch app...
+2018-11-12 15:02:52 common_fun.py[line:17] INFO ========check_skipBtn========
+2018-11-12 15:02:52 registerView.py[line:50] INFO =======register action=======
+2018-11-12 15:02:53 registerView.py[line:53] INFO set portait
+2018-11-12 15:02:53 registerView.py[line:60] INFO set username william711sss
+2018-11-12 15:02:59 registerView.py[line:64] INFO set password test@954
+2018-11-12 15:03:04 registerView.py[line:68] INFO set email hellolove673@163.com
+2018-11-12 15:03:10 registerView.py[line:72] INFO µã»÷Á¢¼´×¢²á
+2018-11-12 15:03:12 registerView.py[line:92] INFO ======target_info======
+2018-11-12 15:03:12 registerView.py[line:94] INFO choose university
+2018-11-12 15:03:33 registerView.py[line:105] INFO choose major
+2018-11-12 15:03:37 registerView.py[line:112] INFO click enter
