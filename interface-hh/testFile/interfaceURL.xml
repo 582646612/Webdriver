@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<interface>
+    <url name="login">
+        <group>ordercenter</group>
+        <html>formlogin</html>
+    </url>
+
+    <url name="queryUserBalance">
+        <group>broadband</group>
+        <html>queryUserBalance</html>
+    </url>
+    <url name="createtag">
+        <group>userTags</group>
+        <html>create</html>
+    </url>
+</interface>
