@@ -60,3 +60,9 @@ def get_value_from_return_json(json, name1, name2):
     group = info[name1]
     value = group[name2]
     return value
+
+if __name__ == '__main__':
+    x=get_xls("userCase.xlsx", "login")
+    print(x)
+    y=get_url_from_xml('login')
+    print(y)

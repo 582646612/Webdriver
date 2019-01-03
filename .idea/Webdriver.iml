@@ -7,6 +7,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Blog" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Awesome" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/interface-hh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapyspider/scrapyspider/spiders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrtest/scrtest/spiders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/scrapy_jingdong-master/tutorial/spiders" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.5" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

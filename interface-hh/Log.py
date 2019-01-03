@@ -9,7 +9,7 @@ localReadConfig = readConfig.ReadConfig()
 
 class Log:
     def __init__(self):
-        global logPath, resultPath, proDir
+        global logPath, resultPath, proDir #定义全局作用域
         proDir = readConfig.proDir
         resultPath = os.path.join(proDir, "result")
         if not os.path.exists(resultPath):
