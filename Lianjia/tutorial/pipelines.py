@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import time
-from dbhelper import DBHelper
+from .spiders.dbhelper import DBHelper
 class TutorialPipeline(object):
     def process_item(self, item, spider):
         # 获取当前工作目录

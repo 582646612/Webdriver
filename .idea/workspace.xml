@@ -2,29 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab1624ab-b3af-4ff0-a5c9-bc602d3b076a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_jingdong-master/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_jingdong-master/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/dbhelper.py" afterDir="false" />
-      <change afterPath="D:/python/Common/Function/pandas_test.py" afterDir="false" />
-      <change afterPath="D:/python/Common/Function/replace.py" afterDir="false" />
-      <change afterPath="D:/python/Reptile/Lianjia.py" afterDir="false" />
-      <change afterPath="D:/python/Reptile/Yuntu1.py" afterDir="false" />
-      <change afterPath="D:/python/Reptile/use_iplipachong.py" afterDir="false" />
-      <change afterPath="D:/python/Reptile/yuntu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/dbinsert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/spiders/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/spiders/dbhelper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fund/spiders/fund.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fundinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fundstage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/fundyear.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/stagedata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fund/yeardata.py" afterDir="false" />
+      <change afterPath="D:/python/Reptile/py_query.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Webdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Webdriver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-hh/Log.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface-hh/Log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface-hh/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface-hh/common.py" afterDir="false" />
-      <change beforePath="D:/python/Common/Mysql/Pymysql.py" beforeDir="false" afterPath="D:/python/Common/Mysql/Pymysql.py" afterDir="false" />
-      <change beforePath="D:/python/Reptile/daili.py" beforeDir="false" afterPath="D:/python/Reptile/use_daili.py" afterDir="false" />
-      <change beforePath="D:/python/Reptile/img/0.jpg.jpg" beforeDir="false" />
-      <change beforePath="D:/python/Reptile/img/1.jpg.jpg" beforeDir="false" />
-      <change beforePath="D:/python/Reptile/img/2.jpg.jpg" beforeDir="false" />
-      <change beforePath="D:/python/Reptile/img/3.jpg.jpg" beforeDir="false" />
-      <change beforePath="D:/python/Reptile/ip_daili.py" beforeDir="false" afterPath="D:/python/Reptile/Get_dailiip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lianjia/news.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lianjia/news.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lianjia/tutorial/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lianjia/tutorial/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lianjia/tutorial/spiders/dbhelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lianjia/tutorial/spiders/dbhelper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lianjia/tutorial/spiders/jd_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lianjia/tutorial/spiders/lj_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/fund/scrapy.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fund/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/cookie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/BloomfilterOnRedis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fund/fund/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/defaults.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/dupefilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/picklecompat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/spiders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/scrapy_redis/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fund/fund/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/spiders/zhihuspider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/spiders/zhihuspider0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/user_agents_pc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihu/zhihu/yumdama.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/news.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhilian/zhilian/spiders/cityMap.py" beforeDir="false" />
+      <change beforePath="D:/python/Appium/appium_test/Woyunxiao.py" beforeDir="false" afterPath="D:/python/Appium/appium_test/Woyunxiao.py" afterDir="false" />
+      <change beforePath="D:/python/Appium/appium_test/date.yaml" beforeDir="false" afterPath="D:/python/Appium/appium_test/date.yaml" afterDir="false" />
+      <change beforePath="D:/python/Reptile/Beautifulsoup.py" beforeDir="false" afterPath="D:/python/Reptile/Beautifulsoup.py" afterDir="false" />
+      <change beforePath="D:/python/Reptile/doubanSpider.py" beforeDir="false" afterPath="D:/python/Reptile/doubanSpider.py" afterDir="false" />
       <change beforePath="D:/python/Reptile/test.py" beforeDir="false" afterPath="D:/python/Reptile/test.py" afterDir="false" />
+      <change beforePath="D:/python/Reptile/use_iplipachong.py" beforeDir="false" afterPath="D:/python/Reptile/use_iplipachong.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,33 +78,40 @@
     <session id="-1899785677">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="47" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.134" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="2" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="3" />
-          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.46" value="4" />
           <entry key="project.open.time.47" value="3" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.51" value="2" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.open.time.53" value="2" />
-          <entry key="project.open.time.54" value="2" />
-          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.53" value="4" />
+          <entry key="project.open.time.54" value="3" />
+          <entry key="project.open.time.55" value="2" />
           <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.74" value="1" />
           <entry key="project.open.time.77" value="2" />
+          <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.open.time.87" value="1" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,12 +126,12 @@
           <entry key="json" value="6" />
           <entry key="lock" value="2" />
           <entry key="png" value="2" />
-          <entry key="py" value="466" />
+          <entry key="py" value="629" />
           <entry key="pyi" value="5" />
           <entry key="rst" value="1" />
           <entry key="sql" value="3" />
-          <entry key="txt" value="24" />
-          <entry key="yaml" value="4" />
+          <entry key="txt" value="32" />
+          <entry key="yaml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -90,29 +139,29 @@
           <entry key="HTML" value="22" />
           <entry key="Image" value="7" />
           <entry key="JSON" value="6" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="466" />
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Python" value="629" />
           <entry key="PythonStub" value="5" />
           <entry key="ReST" value="1" />
           <entry key="SQL" value="3" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="125" />
-          <entry key="py" value="11438" />
+          <entry key="dummy" value="131" />
+          <entry key="py" value="15003" />
           <entry key="pyi" value="1" />
-          <entry key="txt" value="20" />
-          <entry key="yaml" value="5" />
+          <entry key="txt" value="23" />
+          <entry key="yaml" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="145" />
-          <entry key="Python" value="11438" />
+          <entry key="PLAIN_TEXT" value="154" />
+          <entry key="Python" value="15003" />
           <entry key="PythonStub" value="1" />
-          <entry key="YAML" value="5" />
+          <entry key="YAML" value="27" />
         </counts>
       </usages-collector>
     </session>
@@ -123,97 +172,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/pipelines.py">
+        <entry file="file://$PROJECT_DIR$/fund/fundinfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="741">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
-                <element signature="e#193#204#0" expanded="true" />
-                <marker date="1546492363344" expanded="true" signature="308:317" ph="..." />
+                <element signature="e#25#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/run.py">
+        <entry file="file://$PROJECT_DIR$/fund/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/jd_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="399">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#102#115#0" expanded="true" />
+                <element signature="e#25#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/python/Reptile/Yuntu1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/python/Reptile/123.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://D:/python/Reptile/123.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52130">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/python/Reptile/yuntu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/dbhelper.py">
+        <entry file="file://$PROJECT_DIR$/fund/stagedata.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fund/fund/spiders/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fund/fund/spiders/dbhelper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
                 <element signature="e#14#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fund/fund/spiders/fund.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+              <folding>
+                <element signature="e#25#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fund/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="70850" selection-end-column="70956" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fund/fund/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fund/fund/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fund/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -243,67 +294,32 @@
       <find>driver</find>
       <find>self.driver</find>
       <find>print(self.</find>
-      <find>self.</find>
       <find>百度贴吧</find>
       <find>rullib.request</find>
-      <find>urllib2</find>
       <find>print</find>
       <find>SCHEDULER</find>
       <find>response</find>
       <find>imread</find>
+      <find>urllib2</find>
+      <find>self.</find>
+      <find>tutorial</find>
+      <find>‘,’</find>
+      <find>’,’</find>
     </findStrings>
     <replaceStrings>
       <replace>turtle.</replace>
       <replace>self.driver</replace>
       <replace>urllib.request</replace>
+      <replace>fund</replace>
+      <replace>','</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/python" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/python/Common/Py_Study/bibao.py" />
-        <option value="D:/python/Common/Request/test2.py" />
-        <option value="D:/python/Reptile/Baidubk.py" />
-        <option value="D:/python/Reptile/Baidutiba.py" />
-        <option value="D:/python/Reptile/Taobaomm.com.py" />
-        <option value="D:/python/Reptile/Xiushibaike.py" />
-        <option value="D:/python/Reptile/Reptile_xsbk.py" />
-        <option value="D:/python/Reptile/Js.py" />
-        <option value="D:/python/Reptile/zhilian.py" />
-        <option value="D:/python/Reptile/test3.py" />
-        <option value="D:/python/Reptile/Cookies.py" />
-        <option value="D:/python/Reptile/Get_url.py" />
-        <option value="D:/python/Reptile/test5.py" />
-        <option value="D:/python/Reptile/daili.py" />
-        <option value="D:/python/Reptile/ip_daili.py" />
-        <option value="$PROJECT_DIR$/scrapyspider/scrapyspider/settings.py" />
-        <option value="$PROJECT_DIR$/scrapyspider/scrapyspider/items.py" />
-        <option value="$PROJECT_DIR$/scrapyspider/scrapyspider/middlewares.py" />
-        <option value="$PROJECT_DIR$/scrapyspider/scrapyspider/run.py" />
-        <option value="$PROJECT_DIR$/scrapyspider/scrapyspider/spiders/lianjia.py" />
-        <option value="$PROJECT_DIR$/scrapyspider/scrapyspider/pipelines.py" />
-        <option value="$PROJECT_DIR$/zhilian/zhilian/run.py" />
-        <option value="$PROJECT_DIR$/scrtest/run.py" />
-        <option value="$PROJECT_DIR$/scrtest/scrtest/CourseItems.py" />
-        <option value="D:/python/Reptile/stopciku.txt" />
-        <option value="D:/python/Reptile/yuntu.py" />
-        <option value="D:/python/Reptile/use_iplipachong.py" />
-        <option value="D:/python/Common/Function/pandas_test.py" />
-        <option value="D:/python/Reptile/test.py" />
-        <option value="$PROJECT_DIR$/scrtest/scrtest/items.py" />
-        <option value="$PROJECT_DIR$/scrtest/scrtest/spiders/pytest.py" />
-        <option value="$PROJECT_DIR$/scrtest/scrtest/settings.py" />
-        <option value="$PROJECT_DIR$/scrtest/scrtest/pipelines.py" />
-        <option value="$PROJECT_DIR$/scrapy_jingdong-master/tutorial/run.py" />
-        <option value="$PROJECT_DIR$/zhilian/run.py" />
-        <option value="$PROJECT_DIR$/zhilian/zhilian/settings.py" />
-        <option value="$PROJECT_DIR$/zhilian/zhilian/items.py" />
-        <option value="$PROJECT_DIR$/zhilian/zhilian/pipelines.py" />
-        <option value="$PROJECT_DIR$/zhilian/news.txt" />
-        <option value="$PROJECT_DIR$/zhilian/zhilian/spiders/cityMap.py" />
         <option value="D:/python/Reptile/Lianjia.py" />
         <option value="D:/python/Common/Function/replace.py" />
         <option value="$PROJECT_DIR$/scrapy_jingdong-master/news.txt" />
@@ -315,14 +331,54 @@
         <option value="$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/jd_spider.py" />
         <option value="D:/python/Reptile/123.txt" />
         <option value="D:/python/Reptile/Yuntu1.py" />
+        <option value="D:/python/Reptile/py_query.py" />
+        <option value="$PROJECT_DIR$/Zhihu_V/news.txt" />
+        <option value="$PROJECT_DIR$/Zhihu_V/tutorial/spiders/jd_spider.py" />
+        <option value="D:/python/Reptile/use_iplipachong.py" />
+        <option value="D:/python/Reptile/doubanSpider.py" />
+        <option value="$PROJECT_DIR$/zhihu/zhihu/proxy.py" />
+        <option value="$PROJECT_DIR$/Funding/tutorial/spiders/jd_spider.py" />
+        <option value="D:/python/Reptile/Beautifulsoup.py" />
+        <option value="D:/python/Appium/appium_test/Woyunxiao.py" />
+        <option value="D:/python/Appium/appium_test/date.yaml" />
+        <option value="$PROJECT_DIR$/Funding/tutorial/items.py" />
+        <option value="$PROJECT_DIR$/Funding/tutorial/spiders/dbhelper.py" />
+        <option value="$PROJECT_DIR$/Funding/run.py" />
+        <option value="$PROJECT_DIR$/Funding/tutorial/spiders/fund_spider.py" />
+        <option value="$PROJECT_DIR$/Lianjia/news.txt" />
+        <option value="$PROJECT_DIR$/Lianjia/tutorial/spiders/lj_spider.py" />
+        <option value="$PROJECT_DIR$/Lianjia/tutorial/settings.py" />
+        <option value="$PROJECT_DIR$/Lianjia/tutorial/pipelines.py" />
+        <option value="$PROJECT_DIR$/Lianjia/tutorial/spiders/dbhelper.py" />
+        <option value="$PROJECT_DIR$/Funding/tutorial/settings.py" />
+        <option value="$PROJECT_DIR$/Funding/tutorial/pipelines.py" />
+        <option value="$PROJECT_DIR$/Funding/fund/pipelines.py" />
+        <option value="$PROJECT_DIR$/Funding/fund/items.py" />
+        <option value="$PROJECT_DIR$/fund/run.py" />
+        <option value="$PROJECT_DIR$/fund/fund/settings.py" />
+        <option value="$PROJECT_DIR$/fund/fund/spiders/fundvary.py" />
+        <option value="D:/python/Reptile/test.py" />
+        <option value="$PROJECT_DIR$/fund/fund/items.py" />
+        <option value="$PROJECT_DIR$/fund/data.py" />
+        <option value="$PROJECT_DIR$/fund/fundinfo.py" />
+        <option value="$PROJECT_DIR$/fund/fundstage.py" />
+        <option value="$PROJECT_DIR$/fund/yeardata.py" />
+        <option value="$PROJECT_DIR$/fund/fundyear.py" />
+        <option value="$PROJECT_DIR$/fund/dbinsert.py" />
+        <option value="$PROJECT_DIR$/fund/stagedata.py" />
+        <option value="$PROJECT_DIR$/fund/fund/pipelines.py" />
+        <option value="$PROJECT_DIR$/fund/test.py" />
+        <option value="$PROJECT_DIR$/fund/fund/spiders/dbhelper.py" />
+        <option value="$PROJECT_DIR$/fund/fund/spiders/db.py" />
+        <option value="$PROJECT_DIR$/fund/fund/spiders/fund.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="25" />
+    <option name="y" value="137" />
     <option name="width" value="1368" />
-    <option name="height" value="717" />
+    <option name="height" value="594" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -336,6 +392,24 @@
             <path>
               <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webdriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
@@ -358,16 +432,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Webdriver\fund" />
+      <recent name="D:\Webdriver\fund\fund" />
+      <recent name="D:\Webdriver\fund\fund\spiders" />
+      <recent name="D:\Webdriver" />
+      <recent name="D:\python\Reptile" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Webdriver\Funding\tutorial" />
       <recent name="D:\Webdriver\scrapy_jingdong-master\tutorial\spiders" />
       <recent name="D:\Webdriver\scrapy_jingdong-master\tutorial" />
       <recent name="D:\Webdriver\scrapy_jingdong-master" />
       <recent name="D:\python\Common\Py_Study" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\Reptile" />
-      <recent name="D:\python\Common\Request" />
-      <recent name="D:\Webdriver\Blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,50 +459,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Yuntu1">
-    <configuration name="Pymysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Common/Mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/Common/Mysql/Pymysql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Yuntu1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Reptile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/Reptile/Yuntu1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dbhelper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="fundstage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Webdriver" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,11 +468,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fund" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/dbhelper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fund/fundstage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,28 +481,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="replace" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python/Common/Function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python/Common/Function/replace.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Webdriver" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -475,11 +489,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapy_jingdong-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fund" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapy_jingdong-master/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fund/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stagedata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Webdriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fund" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fund/stagedata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Webdriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fund" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fund/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yeardata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Webdriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fund" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fund/yeardata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -489,19 +566,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run (3)" />
-      <item itemvalue="Python.replace" />
-      <item itemvalue="Python.dbhelper" />
-      <item itemvalue="Python.Pymysql" />
-      <item itemvalue="Python.Yuntu1" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.fundstage" />
+      <item itemvalue="Python.yeardata" />
+      <item itemvalue="Python.stagedata" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Yuntu1" />
-        <item itemvalue="Python.run (3)" />
-        <item itemvalue="Python.Pymysql" />
-        <item itemvalue="Python.dbhelper" />
-        <item itemvalue="Python.replace" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.stagedata" />
+        <item itemvalue="Python.yeardata" />
+        <item itemvalue="Python.fundstage" />
       </list>
     </recent_temporary>
   </component>
@@ -519,9 +596,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_kdyj_UntitledTestCase - 2018.12.19 at 09h 01m 08s.xml">
-      <configuration name="pytest for kdyj.UntitledTestCase" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_kdyj_py - 2018.12.19 at 09h 05m 49s.xml">
       <configuration name="pytest in kdyj.py" configurationId="tests" />
     </history-entry>
@@ -549,6 +623,9 @@
     <history-entry file="pytest_for_test2_TestLogin_test_info - 2018.12.24 at 10h 53m 35s.xml">
       <configuration name="pytest for test2.TestLogin.test_info" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_kddd_UntitledTestCase_test_untitled_test_case - 2019.01.10 at 10h 53m 12s.xml">
+      <configuration name="pytest for kddd.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,34 +644,34 @@
       <window_info id="Favorites" order="2" sideWeight="0.17948718" side_tool="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32459018" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.2147541" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.40983605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32828283" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23934427" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23895253" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.2704918" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6106667" visible="true" weight="0.16517857" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6106667" visible="true" weight="0.16517857" />
       <window_info id="Structure" order="1" sideWeight="0.38933334" side_tool="true" weight="0.16294643" />
       <window_info id="Favorites" order="2" sideWeight="0.17948718" side_tool="true" weight="0.17857143" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32459018" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.2147541" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.40983605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32828283" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23934427" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.23895253" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.2704918" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -620,186 +697,127 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/python/Reptile/Beautifulsoup.py">
+    <entry file="file://$PROJECT_DIR$/Lianjia/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="19">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python/Reptile/use_iplipachong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6080">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/CourseItems.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" lean-forward="true" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/spiders/pytest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/data.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/data.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrtest/scrtest/settings.py">
+    <entry file="file://$PROJECT_DIR$/Lianjia/tutorial/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/Lib/site-packages/scrapy/settings/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Lianjia/tutorial/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="266">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lianjia/tutorial/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lianjia/tutorial/spiders/dbhelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Funding/tutorial/settings.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/tutorial/pipelines.py" />
+    <entry file="file://C:/Python35/Lib/site-packages/scrapy/cmdline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python35/Lib/site-packages/scrapy/utils/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="1102">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35/Lib/site-packages/scrapy/cmdline.py">
+    <entry file="file://C:/Python35/Lib/site-packages/scrapy/settings/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="5320">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhihu/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/jobs.jl">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="-171">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+    <entry file="file://C:/Python35/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/items.json">
+    <entry file="file://$PROJECT_DIR$/Funding/news.txt" />
+    <entry file="file://$PROJECT_DIR$/Funding/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/run.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/fund/dbhelper.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/fund/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/fund/spiders/fund_spider.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/fund/items.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/fund/pipelines.py" />
+    <entry file="file://$PROJECT_DIR$/Funding/fund/settings.py" />
+    <entry file="file://D:/python/Working/Unicom/Hklq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1881" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhihu/zhihu/spiders/zhihuspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/items2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/zhilian/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="266">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/zhilian/middlewares.py">
+    <entry file="file://D:/python/Reptile/Toutiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lianjia/tutorial/spiders/lj_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12122">
+          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Reptile/file.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/run.py">
+    <entry file="file://D:/python/Common/Mysql/sql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="131">
+          <caret line="17" column="8" selection-start-line="17" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/news.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/zhilian/spiders/cityMap.py">
+    <entry file="file://D:/python/Common/Function/File.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#21#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/zhilian/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="20" selection-start-line="20" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#266#279#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhilian/zhilian/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="114">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -807,141 +825,146 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/python/Common/Memery/Filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Common/Memery/List.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268" />
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Common/Memery/String.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97" />
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Common/Memery/Tuple.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://D:/python/Common/Function/replace.py">
+    <entry file="file://D:/python/Common/Memery/List.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/spiders/fundvary.py" />
+    <entry file="file://D:/python/Reptile/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="380">
+          <caret line="28" selection-start-line="28" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python/Common/Function/Now_time.py">
+    <entry file="file://D:/python/Reptile/Beautifulsoup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="722">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/news.txt">
+    <entry file="file://$PROJECT_DIR$/fund/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python/Common/Mysql/Pymysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        <state relative-caret-position="209">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/python/Reptile/Lianjia.py">
+    <entry file="file://$PROJECT_DIR$/fund/fund/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="257">
+          <caret line="27" selection-start-line="27" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/dbinsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="68" column="96" selection-start-line="68" selection-start-column="96" selection-end-line="68" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fundstage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/yeardata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fundyear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fundinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#25#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/settings.py">
+    <entry file="file://$PROJECT_DIR$/fund/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="399">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#25#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Common/Mysql/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Common/Mysql/Pymysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/dbhelper.py">
+    <entry file="file://$PROJECT_DIR$/fund/stagedata.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/spiders/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/spiders/dbhelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding>
             <element signature="e#14#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/fund/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state>
+          <caret column="70850" selection-end-column="70956" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fund/fund/spiders/fund.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
           <folding>
-            <element signature="e#193#204#0" expanded="true" />
-            <marker date="1546492363344" expanded="true" signature="308:317" ph="..." />
+            <element signature="e#25#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_jingdong-master/tutorial/spiders/jd_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#102#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Reptile/yuntu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Reptile/Yuntu1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Reptile/123.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://D:/python/Reptile/123.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52130">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>

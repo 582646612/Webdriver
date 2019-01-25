@@ -18,7 +18,7 @@ class DBHelper():
 
     def insert(self,item):
         loctime= time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
-        sql = "INSERT INTO `tech_courses` (`total`, `price`, `area`, `type`, `local`, `title`, `created_time`) VALUES"
+        sql = "INSERT INTO `price_sh` (`total`, `price`, `area`, `type`, `local`, `title`, `created_time`) VALUES"
         value=str((item['total'], item['price'], item['area'],item['type'], item['local'], item['title'], loctime))
         self.mycursor.execute(sql+value)
         self.mydb.commit()
