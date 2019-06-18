@@ -70,7 +70,26 @@ class DBHelper():
         print(sql+value)
         self.mycursor.execute(sql+value)
         self.mydb.commit()
-
+    def insertbaomingrenshu(self,x,y,z):
+        loctime= time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+        sql = "INSERT INTO `baomingrenshu` ( `code`,`sum`,`fee`, `created_time`) VALUES"
+        value=str((x,y,z,loctime))
+        print(sql+value)
+        self.mycursor.execute(sql+value)
+        self.mydb.commit()
+    def insertgangwei(self,x,y,z):
+        loctime= time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+        sql = "INSERT INTO `gangwei` (`code`, `load`, `name`, `created_time`) VALUES"
+        value=str((x,y,z,loctime))
+        print(sql+value)
+        self.mycursor.execute(sql+value)
+        self.mydb.commit()
+    def Updategangwei(self,x,y):
+        sql = "UPDATE gangwei SET name = %s WHERE code = %s"
+        val = (y, x)
+        print(sql,val)
+        self.mycursor.execute(sql, val)
+        self.mydb.commit()
     def Select(self,x):
         sql = "SELECT * FROM fundstage where code="+x
         self.mycursor.execute(sql)

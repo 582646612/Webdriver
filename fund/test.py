@@ -2,7 +2,7 @@
 import scrapy
 import requests
 from bs4 import BeautifulSoup
-import re
+import xlrd
 import urllib.request
 from dbinsert import DBHelper
 from data import allfund
@@ -16,13 +16,18 @@ def parse(num):
     type =items[0].get_text()
     return  type
 if __name__ == '__main__':
-    # y=allfund
-    # z=[]
-    # for x in y:
-    #     db = DBHelper()
-    #     data=db.Select(x)
-    #     if data is None:
-    #         z.append(x)
-    x= "UPDATE fund SET type = %s WHERE code =%s "
-    y=('2017-07-1', '004775')
-    print(x('2017-07-1', '004775'))
+    db = DBHelper()
+    data = xlrd.open_workbook('C:\\Users\\cs\\Downloads\\201903211800.xls')
+    # 获取第一张工作表（通过索引的方式）
+    table = data.sheets()[0]
+    # data_list用来存放数据
+    data_list = []
+    # 将table中第一行的数据读取并添加到data_list中
+    nrows = table.nrows
+    for x in range(nrows):
+        z = table.row_values(x)
+        print(z)
+        db.insertbaomingrenshu(z[0],z[1],z[2])
+    # 打印出第一行的全部数据
+    # for item in data_list:
+    #     print(item)
